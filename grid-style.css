@@ -106,6 +106,18 @@ a {
 	text-align: center;
 }
 
+#site-title:hover #vertical-dropdown {
+    display: block;
+}
+
+#vertical-dropdown {
+    display: none;
+}
+
+nav {
+    display: none;
+}
+
 nav a {
 	color: #b3b3b3;
 	display: inline;
@@ -144,12 +156,11 @@ nav a:visited {
 
 .other-news-item {
 	display: inline-block;
-	width: 24%;
-	/*height: 25%;*/
+	width: 99%;
 }
 
 .other-news-item img {
 	width: 100%;
 	height: 10em;
-	object-fit: contain;
+	object-fit: fill;
 }
